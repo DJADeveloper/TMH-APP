@@ -1,5 +1,7 @@
 import { FreeMode, Navigation } from "swiper";
 import { Swiper, SwiperSlide } from "swiper/react";
+import Image from "next/image";
+import testimonial from "../../../public/assets/imgs/testimonial/testimonial.svg";
 
 // Import Swiper styles
 import "swiper/css";
@@ -16,16 +18,19 @@ const AboutTestimonial = () => {
 
           <div className="row g-0">
             <div className="col-xxl-5 col-xl-5 col-lg-5 col-md-5">
-              <div className="testimonial__video">
-                <video autoPlay muted loop>
-                  <source src="assets/video/testimonial.mp4" type="video/mp4" />
-                </video>
+              <div>
+                <Image
+                  priority
+                  fill="responsive"
+                  src={testimonial}
+                  alt="testimonial"
+                />
               </div>
             </div>
 
             <div className="col-xxl-7 col-xl-7 col-lg-7 col-md-7">
-              <div className="testimonial__slider-wrapper-2">
-                <div className="testimonial__slider">
+              <div className="testimonial__slider-wrapper-2 mt-5">
+                <div className="testimonial__slider ">
                   <Swiper
                     modules={[FreeMode, Navigation]}
                     spaceBetween={0}
@@ -52,11 +57,9 @@ const AboutTestimonial = () => {
                             build relationships grounded in trust and mutual
                             growth. Exceptional service every step of the way.
                           </p>
-                          <h3 className="testimonial__author">
-                            Sandra O’Connell
-                          </h3>
+                          <h3 className="testimonial__author">Shereve Smith</h3>
                           <h4 className="testimonial__role">
-                            Founder, Tech Frontier
+                            Northwood Manor Assisted Living
                           </h4>
                         </div>
                       </div>
@@ -77,8 +80,10 @@ const AboutTestimonial = () => {
                             benchmark in digital excellence. I cannot recommend
                             them enough.
                           </p>
-                          <h3 className="testimonial__author">David Kim</h3>
-                          <h4 className="testimonial__role">COO, InnovateX</h4>
+                          <h3 className="testimonial__author">Lydell</h3>
+                          <h4 className="testimonial__role">
+                            Founder - Touch of Excellence{" "}
+                          </h4>
                         </div>
                       </div>
                     </SwiperSlide>
@@ -97,9 +102,9 @@ const AboutTestimonial = () => {
                             our brand language fluently. It's more than a
                             service, it's a partnership for success.
                           </p>
-                          <h3 className="testimonial__author">Aria Johnson</h3>
+                          <h3 className="testimonial__author">Mario</h3>
                           <h4 className="testimonial__role">
-                            Marketing Head, Apex Dynamics
+                            Founder - A+ Roofing Excellence
                           </h4>
                         </div>
                       </div>

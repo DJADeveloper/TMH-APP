@@ -5,6 +5,7 @@ import LogoWhite from "../../../public/assets/imgs/logo/site-logo-white.png";
 import LogoWhiteSideWays from "../../../public/assets/imgs/logo/site-logo-white-sideways.png";
 import LogoWhite2 from "../../../public/assets/imgs/logo/site-logo-white-2.png";
 import MenuWhite from "../../../public/assets/imgs/icon/menu-white.png";
+import NavLogo from "../../../public/assets/imgs/logo/nav-logo.svg";
 import Image from "next/image";
 
 export default function Header3() {
@@ -63,7 +64,7 @@ export default function Header3() {
                 width={100}
                 height={33}
                 className="logo-secondary"
-                src={LogoWhite2}
+                src={NavLogo}
                 alt="Moibile Logo"
               />
             </Link>

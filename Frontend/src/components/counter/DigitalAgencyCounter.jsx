@@ -72,13 +72,13 @@ const DigitalAgencyCounter = () => {
                 <div className="counter__item counter__anim">
                   <h2 className="counter__number count1">25k+</h2>
                   <p>
-                    Project <br />
+                    Projects <br />
                     completed
                   </p>
                   <span className="counter__border"></span>
                 </div>
                 <div className="counter__item counter__anim">
-                  <h2 className="counter__number count2">8k+</h2>
+                  <h2 className="counter__number count2">25</h2>
                   <p>
                     Happy <br />
                     customers

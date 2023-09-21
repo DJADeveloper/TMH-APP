@@ -1,6 +1,7 @@
 import { useEffect, useRef } from "react";
 import Link from "next/link.js";
-import Award from "../../../public/assets/imgs/about/award.png"; // Consider replacing with a Mastery House specific award or recognition
+import Award from "../../../public/assets/imgs/about/award.png";
+import TmhHouseBanner from "../../../public/assets/imgs/about/tmh-house-dark.svg"; // Consider replacing with a Mastery House specific award or recognition
 import Image from "next/image.js";
 import animationWordCome from "@/lib/utils/animationWordCome";
 
@@ -17,7 +18,7 @@ const AboutHero = () => {
           <div className="row">
             <div className="col-xxl-12">
               <div className="hero__about-content">
-                <h1 className="hero-title animation__word_come" ref={wordAnim}>
+                <h1 className="hero-title animation__word_come " ref={wordAnim}>
                   We are Mastery House, your partners in holistic personal and
                   professional development.
                 </h1>
@@ -42,7 +43,7 @@ const AboutHero = () => {
                       innovation.
                     </p>
                   </div>
-                  <div className="hero__about-award">
+                  {/* <div className="hero__about-award">
                     <Image
                       priority
                       width={126}
@@ -50,7 +51,7 @@ const AboutHero = () => {
                       src={Award} // Consider replacing with a Mastery House specific award or recognition
                       alt="Mastery House Recognition"
                     />
-                  </div>
+                  </div> */}
                 </div>
               </div>
             </div>
@@ -58,14 +59,50 @@ const AboutHero = () => {
           <div className="row hero__about-row">
             <div className="col-xxl-12">
               <div className="hero__about-video">
-                <video loop muted autoPlay playsInline>
-                  <source src="assets/video/video.mp4" type="video/mp4" /> //
-                  Make sure to replace with a video representing Mastery House
-                </video>
+                <div style={{ position: "relative", height: "500px" }}>
+                  <Image
+                    fill="responsive"
+                    src={TmhHouseBanner}
+                    alt="hero-banner"
+                  />
+                </div>
               </div>
             </div>
           </div>
         </div>
+        <style jsx>{`
+          h1.hero-title {
+            font-size: 2.5rem; // Default size
+            line-height: 1.2; // Default line height
+            word-spacing: normal; // Default word spacing
+          }
+          @media screen and (min-width: 1400px) {
+            h1.hero-title {
+              font-size: 3rem; // Slightly larger font size for very wide screens
+            }
+          }
+          @media screen and (min-width: 1200px) and (max-width: 1399px) {
+            h1.hero-title {
+              font-size: 2.7rem; // Medium screens
+            }
+          }
+          @media screen and (max-width: 991px) {
+            h1.hero-title {
+              font-size: 2.2rem; // Tablets and small screens
+            }
+          }
+          @media screen and (max-width: 767px) {
+            h1.hero-title {
+              font-size: 1.8rem; // Mobile devices
+              line-height: 1.3; // Increased line height for readability
+            }
+          }
+          @media screen and (max-width: 480px) {
+            h1.hero-title {
+              font-size: 1.5rem; // Small mobile devices
+            }
+          }
+        `}</style>
       </section>
     </>
   );

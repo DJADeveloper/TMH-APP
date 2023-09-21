@@ -86,7 +86,6 @@ const DigitalAgencyService = () => {
                     creative problem-solving and forward-thinking brands that
                     push boundaries
                   </span>
-                  .
                 </p>
               </div>
             </div>
@@ -171,7 +170,9 @@ const DigitalAgencyService = () => {
                     }
                     data-service="1"
                   >
-                    <h4>Web & Mobile Development</h4>
+                    <h4 style={{ color: "#00ffd0" }}>
+                      Web & Mobile Development
+                    </h4>
                     <p>
                       Elevate your online presence with our cutting-edge web and
                       mobile development services. We specialize in crafting
@@ -191,7 +192,7 @@ const DigitalAgencyService = () => {
                     }
                     data-service="2"
                   >
-                    <h4>Interaction Design</h4>
+                    <h4 style={{ color: "#00ffd0" }}>Interaction Design</h4>
                     <p>
                       Transform user experiences with our interaction design
                       services. We focus on creating intuitive user interfaces
@@ -211,7 +212,7 @@ const DigitalAgencyService = () => {
                     }
                     data-service="3"
                   >
-                    <h4>Digital Marketing</h4>
+                    <h4 style={{ color: "#00ffd0" }}>Digital Marketing</h4>
                     <p>
                       Expand your reach and drive business growth with our
                       comprehensive digital marketing services. From SEO
@@ -231,7 +232,7 @@ const DigitalAgencyService = () => {
                     }
                     data-service="4"
                   >
-                    <h4>Branding and Strategy</h4>
+                    <h4 style={{ color: "#00ffd0" }}>Branding and Strategy</h4>
                     <p>
                       Build a recognizable and trusted brand with our branding
                       and strategy services. We work closely with you to

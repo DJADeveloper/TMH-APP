@@ -65,14 +65,12 @@ const DigitalAgencyHero = () => {
                     <i className="fa-solid fa-arrow-right"></i>
                   </span>
                 </Link> */}
+                <h2 className="hero__title" ref={heroTitle}>
+                  The Mastery
+                  <br />
+                  House
+                </h2>
                 <div className="hero__title-wrapper">
-                  <Image
-                    priority
-                    width={650}
-                    style={{ height: "auto" }}
-                    src={logo}
-                    alt=" Logo"
-                  />
                   <p className="hero__sub-title" ref={heroSubTitle}>
                     Merging technology and creativity, we embody
                     <span>creative problem-solving</span> to craft unique

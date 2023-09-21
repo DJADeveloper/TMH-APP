@@ -22,6 +22,16 @@ const AboutStory = () => {
               <div className="col-xxl-5 col-xl-5 col-lg-5 col-md-5">
                 <h2 className="sec-sub-title title-anim">Digital Studio</h2>
                 <h3 className="sec-title title-anim">Our story</h3>
+                <div className="story__img-wrapper img-anim hide-on-computer">
+                  <Image
+                    priority
+                    width={520}
+                    style={520}
+                    src={logo}
+                    alt="Story Thumbnail"
+                    data-speed="auto"
+                  />
+                </div>
               </div>
               <div className="col-xxl-7 col-xl-7 col-lg-7 col-md-7">
                 <div className="story__text">
@@ -48,8 +58,8 @@ const AboutStory = () => {
             </div>
           </div>
           <div className="row">
-            <div className="col-xxl-3 col-xl-3 col-lg-3 col-md-3">
-              <div className="story__img-wrapper">
+            <div className="col-xxl-3 col-xl-3 col-lg-3 col-md-3 hide-on-mobile">
+              <div className="story__img-wrapper hide-on-mobile">
                 <Image
                   priority
                   width={600}
@@ -60,20 +70,20 @@ const AboutStory = () => {
                 />
               </div>
             </div>
-            <div className="col-xxl-5 col-xl-5 col-lg-5 col-md-5">
-              <div className="story__img-wrapper img-anim">
+            <div className="col-xxl-5 col-xl-5 col-lg-5 col-md-12 logo">
+              <div className="story__img-wrapper img-anim hide-on-mobile">
                 <Image
                   priority
                   width={520}
-                  style={{ height: "auto" }}
+                  style={{ height: "520px" }}
                   src={logo}
                   alt="Story Thumbnail"
                   data-speed="auto"
                 />
               </div>
             </div>
-            <div className="col-xxl-4 col-xl-4 col-lg-4 col-md-4">
-              <div className="story__img-wrapper">
+            <div className="col-xxl-4 col-xl-4 col-lg-4 col-md-4 hide-on-mobile">
+              <div className="story__img-wrapper hide-on-mobile ">
                 <Image
                   priority
                   width={230}
@@ -92,6 +102,39 @@ const AboutStory = () => {
             </div>
           </div>
         </div>
+        <style jsx>{`
+          .hide-on-mobile {
+            display: block; // By default, the image is displayed
+          }
+          .hide-on-computer {
+            display: block; // Hide on computer
+          }
+          .logo {
+            margin-top: 0px;
+            margin-bottom: 0px;
+          }
+
+          @media screen and (min-width: 1400px) {
+            .hide-on-computer {
+              display: none;
+            }
+          }
+          @media screen and (min-width: 1200px) and (max-width: 1399px) {
+            .hide-on-computer {
+              display: none;
+            }
+          }
+          @media screen and (max-width: 767px) {
+            .hide-on-mobile {
+              display: none; // Hide on mobile
+            }
+          }
+          @media screen and (max-width: 991px) {
+            .hide-on-mobile {
+              display: none; // Hide on mobile
+            }
+          }
+        `}</style>
       </section>
     </>
   );

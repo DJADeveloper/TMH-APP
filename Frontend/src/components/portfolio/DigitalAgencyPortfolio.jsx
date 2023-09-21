@@ -172,13 +172,13 @@ const DigitalAgencyPortfolio = () => {
                 data-speed="1"
                 data-lag="0.2"
               >
-                <a
+                {/* <a
                   className="wc-btn-secondary btn-hover btn-item"
                   href="/portfolio"
                 >
                   <span></span>View <br />
                   all projects <i className="fa-solid fa-arrow-right"></i>
-                </a>
+                </a> */}
               </div>
             </div>
           </div>

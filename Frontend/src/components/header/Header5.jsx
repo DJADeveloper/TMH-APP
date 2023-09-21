@@ -4,6 +4,7 @@ import Link from "next/link";
 import LogoBlack from "../../../public/assets/imgs/logo/logo-black.png";
 import LogoWhite2 from "../../../public/assets/imgs/logo/site-logo-white-2.png";
 import LogoWhite3 from "../../../public/assets/imgs/logo/large-white-no-tmh-logo.png";
+import NavLogo from "../../../public/assets/imgs/logo/nav-logo.svg";
 import LogoMinimal from "../../../public/assets/imgs/logo/1.png";
 import LogoWhite from "../../../public/assets/imgs/logo/1.png";
 import MenuBlack from "../../../public/assets/imgs/icon/menu-black.png";
@@ -32,7 +33,7 @@ export default function Header5() {
     if (header_bg_2) {
       if (topScroll > 20) {
         header_bg_2.style.background = "#121212";
-        header_bg_2.classList.add("sticky-2");
+        // header_bg_2.classList.add("sticky-2");
       } else {
         header_bg_2.style.background = "transparent";
         header_bg_2.classList.remove("sticky-2");
@@ -50,19 +51,18 @@ export default function Header5() {
           <div className="header__logo-5">
             <Link href="/digital-agency-dark" className="logo-dark">
               <Image
-                priority
-                width={136}
-                height={45}
-                src={LogoWhite}
+                width={topScroll > 20 ? 60 : 100}
+                height="auto"
+                src={NavLogo}
                 alt="Site Logo"
               />
             </Link>
             <Link href="/digital-agency-dark" className="logo-light">
               <Image
                 priority
-                width={100}
+                width={topScroll > 20 ? 60 : 100}
                 height="auto"
-                src={LogoWhite3}
+                src={NavLogo}
                 alt="Site Logo"
               />
             </Link>

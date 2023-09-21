@@ -3,6 +3,7 @@ import Shape1 from "../../../public/assets/imgs/home-7/shape-1.png"; // Update w
 import Shape2 from "../../../public/assets/imgs/home-7/shape-2.png"; // Update with shapes that resonate with Mastery House's branding
 import Shape3 from "../../../public/assets/imgs/home-7/shape-3.png"; // Update with shapes that resonate with Mastery House's branding
 import Shape8 from "../../../public/assets/imgs/home-7/shape-8.svg"; // Update with shapes that resonate with Mastery House's branding
+import CodeShape from "../../../public/assets/imgs/home-7/code-shape.svg"; // Update with shapes that resonate with Mastery House's branding
 // Update with shapes that resonate with Mastery House's branding
 
 const ServiceV6Hero = () => {

@@ -32,7 +32,7 @@ const DigitalAgencyAbout = () => {
           <div className="row">
             <div className="col-xxl-12">
               <div className="about__title-wrapper">
-                <h3 className="sec-title title-anim">
+                <h3 className="sec-title ">
                   We unlock the fullest potential of your business through a
                   masterful blend of creativity and technology.
                 </h3>
@@ -66,7 +66,7 @@ const DigitalAgencyAbout = () => {
                   </div>
                 </div>
 
-                <div className="about__content text-anim">
+                <div className="about__content ">
                   <p>
                     From seasoned strategies in PR and campaigns that echo
                     thought leadership, to storytelling that captivates and
