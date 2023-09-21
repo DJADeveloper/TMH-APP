@@ -6,10 +6,10 @@ import { gsap } from "gsap";
 import { ScrollTrigger, ScrollSmoother } from "@/plugins";
 import work1 from "../../../public/assets/imgs/work/portfolio/work-01.jpg";
 import work2 from "../../../public/assets/imgs/work/portfolio/work-02.jpg";
-import work3 from "../../../public/assets/imgs/work/portfolio/work-03.jpg";
+import work3 from "../../../public/assets/imgs/work/portfolio/work-03.png";
 import work4 from "../../../public/assets/imgs/work/portfolio/work-04.jpg";
 import work5 from "../../../public/assets/imgs/work/portfolio/work-05.jpg";
-import work6 from "../../../public/assets/imgs/work/portfolio/work-06.jpg";
+import work6 from "../../../public/assets/imgs/work/portfolio/work-06.png";
 
 gsap.registerPlugin(ScrollTrigger, ScrollSmoother);
 
