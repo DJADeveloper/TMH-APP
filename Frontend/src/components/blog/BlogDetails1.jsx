@@ -93,15 +93,16 @@ const BlogDetails1 = () => {
                 <h2>Paid Advertising and Influencer Partnerships</h2>
                 <p>
                   Leveraging paid advertising and forging influencer
-                  partnerships can amplify your startup's reach, bringing your
-                  message to a broader audience. However, the strategies don't
-                  end here; analyzing performance metrics and continually
-                  adjusting your approach is vital for sustained growth.
+                  partnerships can amplify your startup&apos;s reach, bringing
+                  your message to a broader audience. However, the strategies
+                  don&apos;t end here; analyzing performance metrics and
+                  continually adjusting your approach is vital for sustained
+                  growth.
                 </p>
                 <h2>Analytics and Continuous Improvement</h2>
                 <p>
                   By diving deep into performance analytics, you can understand
-                  what works for your brand and what doesn't, allowing for
+                  what works for your brand and what doesn&apos;t, allowing for
                   informed decisions and refined strategies. This process of
                   analysis and adjustment is central to evolving and improving
                   your social media marketing strategy over time.
@@ -115,12 +116,12 @@ const BlogDetails1 = () => {
                 </ul>
                 <h2>Get Started with The Mastery House</h2>
                 <p>
-                  Ready to elevate your startup's online presence? The Mastery
-                  House is here to support your business success with a custom
-                  website design crafted just for you. Based in Florida, we
-                  offer a range of digital solutions, including web development
-                  services in Tampa. Connect with us and stay competitive in the
-                  online landscape.
+                  Ready to elevate your startup&apos;s online presence? The
+                  Mastery House is here to support your business success with a
+                  custom website design crafted just for you. Based in Florida,
+                  we offer a range of digital solutions, including web
+                  development services in Tampa. Connect with us and stay
+                  competitive in the online landscape.
                 </p>
                 <Image
                   priority

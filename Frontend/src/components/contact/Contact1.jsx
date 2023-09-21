@@ -46,15 +46,16 @@ const Contact1 = () => {
             <div className="col-xxl-6 col-xl-6 col-lg-6 col-md-6">
               <div className="sec-title-wrapper">
                 <h2 className="sec-title-2 animation__char_come" ref={charAnim}>
-                  Let's Build Something Great
+                  Let&apos;s Build Something Great
                 </h2>
               </div>
             </div>
             <div className="col-xxl-6 col-xl-6 col-lg-6 col-md-6">
               <div className="contact__text">
                 <p>
-                  Your imagination. Our expertise. Let's collaborate to craft
-                  solutions that are as unique and exceptional as your business.
+                  Your imagination. Our expertise. Let&apos;s collaborate to
+                  craft solutions that are as unique and exceptional as your
+                  business.
                 </p>
               </div>
             </div>

@@ -95,12 +95,12 @@ const AboutTestimonial = () => {
                             Masters of Digital Craft
                           </h2>
                           <p className="testimonial__text-2">
-                            Mastery House has been a cornerstone in our brand's
-                            development. Their team is filled with master
-                            craftsmen who poured creativity and expertise into
-                            our projects, crafting a digital space that speaks
-                            our brand language fluently. It's more than a
-                            service, it's a partnership for success.
+                            Mastery House has been a cornerstone in our
+                            brand&apos;s development. Their team is filled with
+                            master craftsmen who poured creativity and expertise
+                            into our projects, crafting a digital space that
+                            speaks our brand language fluently. It&apos;s more
+                            than a service, it&apos;s a partnership for success.
                           </p>
                           <h3 className="testimonial__author">Mario</h3>
                           <h4 className="testimonial__role">

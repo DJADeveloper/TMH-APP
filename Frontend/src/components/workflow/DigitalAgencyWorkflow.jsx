@@ -87,8 +87,8 @@ const DigitalAgencyWorkflow = () => {
                       <h5 className="workflow__number">02</h5>
                       <h6 className="workflow__title">Blueprint Creation</h6>
                       <p>
-                        Designing a personalized roadmap to achieve the clients'
-                        goals.
+                        Designing a personalized roadmap to achieve the
+                        clients&apos; goals.
                       </p>
                     </div>
                   </SwiperSlide>
@@ -137,7 +137,7 @@ const DigitalAgencyWorkflow = () => {
                       <h5 className="workflow__number">06</h5>
                       <h6 className="workflow__title">Final Presentation</h6>
                       <p>
-                        Showcasing the clients' achievements in a final
+                        Showcasing the clients&apos; achievements in a final
                         presentation.
                       </p>
                     </div>
