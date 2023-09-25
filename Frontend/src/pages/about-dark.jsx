@@ -1,3 +1,6 @@
+import CreativeAgencyAbout from "@/components/about/CreativeAgencyAbout";
+import DesignStudioAbout from "@/components/about/DesignStudioAbout";
+import ModernAgencyAbout from "@/components/about/ModernAgencyAbout";
 import DigitalAgencyBrand from "@/components/brand/DigitalAgencyBrand";
 import RootLayout from "@/components/common/layout/RootLayout";
 import AboutCounter from "@/components/counter/AboutCounter";
@@ -18,8 +21,14 @@ const AboutDark = () => {
       </Head>
       <main>
         <RootLayout defaultMode="dark">
-          <AboutHero />
-          <AboutStory />
+          {/* test */}
+          <ModernAgencyAbout />
+          <CreativeAgencyAbout />
+          <DesignStudioAbout />
+
+          {/* test */}
+          {/* <AboutHero /> */}
+          {/* <AboutStory /> */}
           <AboutCounter />
           {/* <AboutTeam />
           <DigitalAgencyBrand /> */}

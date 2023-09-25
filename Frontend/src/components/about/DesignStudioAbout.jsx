@@ -49,24 +49,35 @@ const DesignStudioAbout = () => {
             <div className="col-xxl-12">
               <div className="sec-title-wrapper">
                 <h2 className="sec-title title-anim">
-                  We design and develop outstanding Digital <br /> Products and
-                  digital-first Brands.
+                  Our Mission <br /> and Vision.
                 </h2>
               </div>
               <div className="sec-text-wrapper">
                 <div className="sec-text text-anim">
                   <p>
-                    We help brands stand out through powerful, elegant visual
-                    design. Our design philosophy is shaped by our experience
-                    growing up at our father’s bookbindery. Surrounded by the
-                    highest-quality materials and turn-of-the-century machines,
-                    we observed the art of true craftsmanship firsthand.
+                    At The Mastery House, we are fueled by a mission to drive
+                    transformative digital change, seamlessly blending
+                    creativity and technology to empower businesses of all
+                    sizes. We envision a future where every enterprise,
+                    regardless of its scale, can access innovative strategies
+                    and tools, unlocking unparalleled growth and success in the
+                    digital realm and beyond.
+                  </p>
+                  <br />
+                  <p>
+                    Upholding values of Innovation, Integrity, Client Success,
+                    and Social Responsibility, we craft a symbiotic relationship
+                    between your aspirations and our expertise. Our commitment
+                    to these principles reflects in our actions, as we
+                    constantly strive to uphold transparency, pioneer solutions,
+                    ensure client growth, and contribute to a compassionate and
+                    inclusive world by supporting autism organizations.
                   </p>
                 </div>
                 <div className="sec-btn btn_wrapper">
                   <Link
                     className="wc-btn-pink btn-hover btn-item"
-                    href="/about"
+                    href="/contact-dark"
                   >
                     <span></span> Explore Us{" "}
                     <i className="fa-solid fa-arrow-right"></i>
@@ -77,7 +88,7 @@ const DesignStudioAbout = () => {
           </div>
         </div>
 
-        <div className="about__img-2 pb-130">
+        {/* <div className="about__img-2 pb-130">
           <Image
             priority
             width={1720}
@@ -86,9 +97,9 @@ const DesignStudioAbout = () => {
             alt="About Image"
             data-speed="0.2"
           />
-        </div>
+        </div> */}
 
-        <div className="container pb-140">
+        {/* <div className="container pb-140">
           <div className="row">
             <div className="col-xxl-12">
               <h2 className="brand__title-2 title-anim">
@@ -152,7 +163,7 @@ const DesignStudioAbout = () => {
               </div>
             </div>
           </div>
-        </div>
+        </div> */}
       </section>
     </>
   );

@@ -70,13 +70,18 @@ const DigitalAgencyHero = () => {
                   <br />
                   House
                 </h2>
+                {/* <div className="hero__title" ref={heroTitle}>
+                  <video autoPlay muted loop height={600} width={800}>
+                    <source src="assets/video/Logo.mp4" type="video/mp4" />
+                  </video>
+                </div> */}
                 <div className="hero__title-wrapper">
                   <p className="hero__sub-title" ref={heroSubTitle}>
                     Merging technology and creativity, we embody
                     <span>creative problem-solving</span> to craft unique
                     experiences.
                   </p>
-                </div>
+                </div>{" "}
                 <Image
                   priority
                   width={170}
