@@ -60,7 +60,7 @@ const CreativeAgencyAbout = () => {
             <div className="col-xxl-12">
               <div className="sec-title-wrapper">
                 <h2 className="sec-title title-anim">
-                  The Mastery House <br /> Story
+                  The Mastery House <br /> Story.
                 </h2>
               </div>
             </div>
