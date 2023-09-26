@@ -13,28 +13,31 @@ const Contact1 = () => {
 
   function handleSubmit(event) {
     event.preventDefault();
-    fetch("http://127.0.0.1:5000/send_email", {
+    const form = event.target;
+    fetch("/api/send_email", {
       method: "POST",
       headers: {
-        "Content-Type": "application/x-www-form-urlencoded",
+        "Content-Type": "application/json",
       },
-      body: new URLSearchParams({
+      body: JSON.stringify({
         name: event.target.name.value,
         email: event.target.email.value,
         phone: event.target.phone.value,
         subject: event.target.subject.value,
         message: event.target.message.value,
-      }).toString(),
+      }),
     })
       .then((response) => response.text())
       .then((data) => {
         console.log(data);
         setStatusMessage("Email sent successfully!"); // Set success message
+        // form.reset(); // Reset form;
       })
       .catch((error) => {
         console.error("Error:", error);
         setStatusMessage("Failed to send email."); // Set failure message
       });
+    form.reset(); // Reset form;
   }
 
   return (
@@ -86,9 +89,6 @@ const Contact1 = () => {
             </div>
             <div className="col-xxl-7 col-xl-7 col-lg-7 col-md-7">
               <div className="contact__form">
-                {statusMessage && (
-                  <div className="status-message">{statusMessage}</div>
-                )}{" "}
                 {/* Conditionally render status message */}
                 <form onSubmit={handleSubmit}>
                   <div className="row g-3">
@@ -119,6 +119,9 @@ const Contact1 = () => {
                       ></textarea>
                     </div>
                   </div>
+                  {statusMessage && (
+                    <div className="status-message">{statusMessage}</div>
+                  )}{" "}
                   <div className="row g-3">
                     <div className="col-12">
                       <div className="btn_wrapper">
